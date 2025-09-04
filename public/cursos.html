@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Cursos</title>
+</head>
+
+<body>
+    <h1>Gestão de Cursos</h1>
+
+    
+    <input type="hidden" placeholder="ID do curso">
+    <input type="text" placeholder="Nome do curso">
+    <input type="text" placeholder="Turno do curso">
+    
+    
+    <button onclick="inserirCurso()">Salvar</button>
+    <button onclick="atualizarCurso()">Atualizar</button>
+
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Turno</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    
+    <script src="js/cursos-crud/editarCurso.js"></script>
+    <script src="js/cursos-crud/inserirCurso.js"></script>
+    <script src="js/cursos-crud/excluirCurso.js"></script>
+    <script src="js/cursos-crud/atualizarCurso.js"></script>
+    <script src="js/cursos-crud/pegarCurso.js"></script>
+</body>
+
+</html>

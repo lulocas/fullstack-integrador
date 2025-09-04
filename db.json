@@ -62,5 +62,12 @@
       "turno": "NOITE",
       "id": 3
     }
+  ],
+  "cursos": [
+    {
+      "nome": "CC",
+      "turno": "Noite",
+      "id": 1
+    }
   ]
 }
